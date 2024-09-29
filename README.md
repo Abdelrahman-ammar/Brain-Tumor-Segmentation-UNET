@@ -20,7 +20,7 @@ The project does segmentation on different parts of the brain , thus generating 
 
 - [Deployment](./Deployment/) : The Deployment was made using 2 methods , Docker file and Flask application
 
-  - [Dockerfile](./Deployment/Dockerfile) : build the docker file from here using the command `docker build -t brain_segmentation:v1.0 .` (notice that you should be placed in the deployment directory for the command to work) , then you could run the container using `docker run -it -p 9002:9002 brain_segmentation:v1.0` ,by doing this you could send a request , curl a post request on this specific port.
+  - [Dockerfile](./Deployment/Dockerfile) : build the docker file from here using the command `docker build -t brain_segmentation:v1.0 .` (notice that you should be placed in the deployment directory for the command to work) , then you could run the container using `docker run -it -p 9003:9003 brain_segmentation:v1.0` ,by doing this you could send a request , curl a post request on this specific port.
 
   - [Flask App](./Deployment/app.py) : or you can just `pip install -r requirements.txt` and then use `python app.py` to run the flask application
 
